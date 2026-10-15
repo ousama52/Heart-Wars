@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "rooms": {
+      "room1": {
+        ".read": "auth != null && (auth.uid === 'oyTV8ThXyiMyO2V00d6TEpDLQJz1' || auth.uid === 'yY5YBL2OvVMsGmxkWaSpG1Q2P2F2')",
+        ".write": "auth != null && (auth.uid === 'oyTV8ThXyiMyO2V00d6TEpDLQJz1' || auth.uid === 'yY5YBL2OvVMsGmxkWaSpG1Q2P2F2')"
+      }
+    }
+  }
+}

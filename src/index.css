@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #1a0a14;
+  color: #fbe9f0;
+  overflow: hidden;
+}
+
+/* Phaser canvas centering */
+canvas {
+  display: block;
+  margin: 0 auto;
+  touch-action: none;
+}
